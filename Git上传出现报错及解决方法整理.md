@@ -1,4 +1,4 @@
-# Git笔记
+# Git上传出现报错及解决方法整理
 
 # 1.上传到指定git仓库
 
@@ -168,11 +168,11 @@ git config --global init.defaultBranch main
 
 #### 5.2.1方法二：找到git的配置文件 `.gitconfig`
 
-![image-20231206104340360](Git笔记.assets/image-20231206104340360.png)
+![image-20231206104340360](Git上传出现报错及解决方法整理.assets/image-20231206104340360.png)
 
 #### 5.2.2在配置中添加如下图
 
-![image-20231206104509295](Git笔记.assets/image-20231206104509295.png)
+![image-20231206104509295](Git上传出现报错及解决方法整理.assets/image-20231206104509295.png)
 
 然后这样但我们使用`git init`初始化某个项目时，默认就会使用main作为主分支
 
@@ -346,7 +346,7 @@ git commit -m "Resolve merge conflict in README.md"
 
 本地文件夹提交到远程仓库后不是文件夹，而是一个红色图标名字为leetcode_zhaolipei @ eefcbf13的文件，也打不开
 
-![image-20231223230103306](Git笔记.assets/image-20231223230103306.png)
+![image-20231223230858891](Git上传出现报错及解决方法整理.assets/image-20231223230858891.png)
 
 
 
@@ -374,21 +374,21 @@ git commit -m "Resolve merge conflict in README.md"
 
 ##### 6.1.2.1打开隐藏文件
 
-![image-20231223230109593](Git笔记.assets/image-20231223230109593.png)
+![image-20231223230903368](Git上传出现报错及解决方法整理.assets/image-20231223230903368.png)
 
 ##### 6.1.2.2寻找嵌套仓库`.git`文件
 
 因为红色格雷码文件名为`leetcode_zhaolipei @ eefcbf13`,我们便去本地这个文件目录下寻找
 
-![image-20231223230119768](Git笔记.assets/image-20231223230119768.png)
+![image-20231223230907432](Git上传出现报错及解决方法整理.assets/image-20231223230907432.png)
 
 找到文件
 
-​	![image-20231223230140537](Git笔记.assets/image-20231223230140537.png)
+​	![image-20231223230912944](Git上传出现报错及解决方法整理.assets/image-20231223230912944.png)
 
 发现隐藏.git文件
 
-![image-20231223230135601](Git笔记.assets/image-20231223230135601.png)
+![image-20231223230918888](Git上传出现报错及解决方法整理.assets/image-20231223230918888.png)
 
 直接删除
 
