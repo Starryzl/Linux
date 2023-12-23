@@ -346,7 +346,7 @@ git commit -m "Resolve merge conflict in README.md"
 
 本地文件夹提交到远程仓库后不是文件夹，而是一个红色图标名字为leetcode_zhaolipei @ eefcbf13的文件，也打不开
 
-<img src="C:\Users\Starry_z666\AppData\Roaming\Typora\typora-user-images\image-20231123113320820.png" alt="image-20231123113320820" style="zoom:80%;" />
+![image-20231223230103306](Git笔记.assets/image-20231223230103306.png)
 
 
 
@@ -374,21 +374,21 @@ git commit -m "Resolve merge conflict in README.md"
 
 ##### 6.1.2.1打开隐藏文件
 
-<img src="C:\Users\Starry_z666\AppData\Roaming\Typora\typora-user-images\image-20231123114333947.png" alt="image-20231123114333947" style="zoom: 67%;" />
+![image-20231223230109593](Git笔记.assets/image-20231223230109593.png)
 
 ##### 6.1.2.2寻找嵌套仓库`.git`文件
 
 因为红色格雷码文件名为`leetcode_zhaolipei @ eefcbf13`,我们便去本地这个文件目录下寻找
 
-<img src="C:\Users\Starry_z666\AppData\Roaming\Typora\typora-user-images\image-20231123114702725.png" alt="image-20231123114702725" style="zoom:67%;" />
+![image-20231223230119768](Git笔记.assets/image-20231223230119768.png)
 
 找到文件
 
-​	<img src="C:\Users\Starry_z666\AppData\Roaming\Typora\typora-user-images\image-20231123114726399.png" alt="image-20231123114726399" style="zoom: 67%;" />
+​	![image-20231223230140537](Git笔记.assets/image-20231223230140537.png)
 
 发现隐藏.git文件
 
-![image-20231123114857139](C:\Users\Starry_z666\AppData\Roaming\Typora\typora-user-images\image-20231123114857139.png)
+![image-20231223230135601](Git笔记.assets/image-20231223230135601.png)
 
 直接删除
 
