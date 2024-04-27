@@ -10,3 +10,5 @@
 2.使用Xshell远程连接Linux服务器
 
 3.linux常用指令
+
+4.navicat远程连接服务器、虚拟机上mysql提示错误10060
